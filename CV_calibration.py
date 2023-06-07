@@ -5,6 +5,22 @@ import re
 import matplotlib.pyplot as plt
 
 
+################################################################################################
+#
+# Mariusz Wisniewski KD-712
+#
+# Computer Vision
+# 4606-ES-000000C-0128
+#
+# Measuring the position of the scale line on the camera image
+#
+# Automatic camera calibration
+#
+# 2023-06-07
+#
+################################################################################################
+
+
 def find_the_difference(base, curr, name):
     # convert to grayscale
     base_gray = cv.cvtColor(base, cv.COLOR_BGR2GRAY)

@@ -5,6 +5,22 @@ import re
 import matplotlib.pyplot as plt
 
 
+################################################################################################
+#
+# Mariusz Wisniewski KD-712
+#
+# Computer Vision
+# 4606-ES-000000C-0128
+#
+# Measuring the position of the scale line on the camera image
+#
+# Contrast enhancement and analytical line position detection
+#
+# 2023-06-07
+#
+################################################################################################
+
+
 def measurements_from_filename(name):
     # read position measured manually from file name
     t = re.split('[_.]', name)

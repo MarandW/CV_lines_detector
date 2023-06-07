@@ -9,6 +9,22 @@ import matplotlib.pyplot as plt
 # Downgrade the protobuf package to 3.20.x or lower.
 
 
+################################################################################################
+#
+# Mariusz Wisniewski KD-712
+#
+# Computer Vision
+# 4606-ES-000000C-0128
+#
+# Measuring the position of the scale line on the camera image
+#
+# Line detection using machine learning
+#
+# 2023-06-07
+#
+################################################################################################
+
+
 # Script to run custom TFLite model on test images to detect objects
 # Source: https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/TFLite_detection_image.py
 

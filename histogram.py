@@ -2,6 +2,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
+################################################################################################
+#
+# Mariusz Wisniewski KD-712
+#
+# Computer Vision
+# 4606-ES-000000C-0128
+#
+# Measuring the position of the scale line on the camera image
+#
+# Histogram generation
+#
+# 2023-06-07
+#
+################################################################################################
+
+
 #data = pd.read_csv('detekcja_analitic0.txt',sep=' ',header=None)
 data = pd.read_csv('detekcja_hough0.txt', sep=' ', header=None)
 #data = pd.read_csv('detekcja_tf0.txt',sep=' ',header=None)

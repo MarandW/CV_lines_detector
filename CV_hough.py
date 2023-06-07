@@ -5,6 +5,23 @@ import re
 import math
 
 
+################################################################################################
+#
+# Mariusz Wisniewski KD-712
+#
+# Computer Vision
+# 4606-ES-000000C-0128
+#
+# Measuring the position of the scale line on the camera image
+#
+# Edge detection with Hough line fitting
+#
+# 2023-06-07
+#
+################################################################################################
+
+
+
 def measurements_from_filename(name):
     t = re.split('[_.]', name)
     if t[0] == "kreska":
